@@ -1,0 +1,119 @@
+:root{
+    --merri: 'Merriweather italic',
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+button,
+body{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Roboto';
+    background-color: #FFF;
+    color: #151515;
+    width: 768px;
+    margin-inline: auto;
+}
+
+.font-merri{
+    font-family:'Merriweather';
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2rem;
+    width: 90%;
+    margin-inline: auto;
+}
+
+.select-field{
+    height: 30px;
+    padding-inline: 1rem;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    font-weight: 600;
+    background-color: #0097CF;
+}
+
+.text-area{
+    border: 2px solid #003D6E;
+    border-radius: 25px;
+    width: 90%;
+    height: 350px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-area::placeholder{
+    font-family: 'Merriweather';
+    letter-spacing: 1px;
+}
+
+.speech-area{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    justify-content: space-evenly;
+    padding-bottom: 1.5rem;
+}
+
+.play-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 600;
+    color: #FFF;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    gap: 10px;
+}
+
+.clear-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc2626;
+    font-weight: 600;
+    color: #FFF;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    gap: 10px;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #003D6E;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+}
+
+.button-selection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    width: 90%;
+    margin-inline: auto;
+    padding-bottom: 2rem;
+}
