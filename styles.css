@@ -1,5 +1,5 @@
 :root{
-    --merri: 'Merriweather italic',
+    --merri: 'Merriweather',
 }
 
 *,
@@ -107,6 +107,8 @@ body{
     font-size: 1rem;
     padding-inline: 1rem;
     padding-block: 0.5rem;
+    max-width: 155px;
+    max-height: 40px;
 }
 
 .button-selection{
@@ -116,4 +118,53 @@ body{
     width: 90%;
     margin-inline: auto;
     padding-bottom: 2rem;
+}
+
+.names{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-inline: auto;
+}
+
+.basic-words{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-inline: auto;
+}
+
+.basic-words p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.ltr{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0.6rem;
+    align-content: baseline;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container-time{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+}
+
+.hours{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
 }
